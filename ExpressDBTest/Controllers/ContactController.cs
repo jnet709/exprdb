@@ -14,7 +14,10 @@ namespace ExpressDBTest.Controllers
     {
         private CelerationContext _context = new CelerationContext();
 
-
+		public ContactController()
+		{
+		}
+		
         #region helpers
 
         private static Random random = new Random((int)DateTime.Now.Ticks);
